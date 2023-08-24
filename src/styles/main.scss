@@ -1,4 +1,8 @@
 @use 'hero';
+@use 'components/infosbar';
+@use 'components/buttons';
+@use 'event';
+@use 'variables';
 
 * {
     margin: 0;
@@ -6,6 +10,7 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     color: #fff;
+    list-style: none;
 }
 
 .container {
