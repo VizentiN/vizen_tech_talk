@@ -1,6 +1,6 @@
 AOS.init();
 
-const eventDate = new Date("Sep 12, 2023 19:00:00");
+const eventDate = new Date("Sep 12, 2023 19:30:00");
 const eventTimeStamp = eventDate.getTime();
 
 const countHour = setInterval(function() {
